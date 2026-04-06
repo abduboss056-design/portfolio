@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abdrehman kedir | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/bootstrap-5.3.8-dist/bootstrap-5.3.8-dist/css/bootstrap.css">
+</head>
+<body>
+
+<!-- NAVBAR -->
+ <div class="container mt-4">
+<nav class="navbar navbar-expand-md bg-light text-light position-sticky top-0 rounded shadow">
+    <div class="container">
+    <a href="/index.html"><img src="assets/image/Abdu.png" alt="logo"></a>
+     <button  data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navbarNav"><span class="navbar-toggler-icon"></span></button>
+    </div>
+
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+                <a class="nav-link text-dark" href="/index.html">Home</a>
+            </li>
+            
+            <li class="nav-item">
+                <a class="nav-link text-dark" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-dark" href="#skills">Skills</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-dark" href="#projects">Projects</a>
+
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-dark" href="#contact">Contact</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+<!-- HOME -->
+<section id="home">
+    <h1 class="text-white">Welcome to <span>My Portfolio </span>Website</h1><br><br><br><br>
+    <h3 class="text-white">HELLO, I'm <span>Abdrehman Kedir</span></h3>
+    <p class="text-white">Front-End Developer</p><br>
+    <a href="#about" class="btn btn-primary">About Me</a>
+
+</section>
+
+ <section id="about" class="container py-5 text-center bg-light text-dark mb-5 mt-5 rounded shadow">
+    <div class=""></div>
+    <h2 class="text-center">About Me</h2>
+    <img id="profile" class="profile rounded-circle float-end" src="assets/image/profile.png" alt="Profile Image">
+    <p class="para p-5">I'm a passionate front-end developer with experience in creating responsive and user-friendly websites. I specialize in HTML, CSS, and JavaScript, and I'm always eager to learn new technologies and improve my skills.God willing, my goal is to earn good money by doing many websites, applications, and problem solving projects to benefit myself and my country.</p>
+ </section>
+<section id="skills" class="container mt-5">
+    <h2>Skills</h2>
+
+    <div class="progress">
+        <div class="progress-bar" style="width: 90%;">HTML</div>
+    </div>
+
+    <div class="progress">
+        <div class="progress-bar" style="width: 80%;">CSS</div>
+    </div>
+
+    <div class="progress">
+        <div class="progress-bar" style="width: 21%;">JavaScript</div>
+    </div>
+    <div class="progress">
+        <div class="progress-bar" style="width: 20%;">Bootstrap</div>
+    </div>
+</section>
+<h2>Projects</h2>
+<div id="projects" class="row row-cols-1 row-cols-md-2 g-4 mt-5">
+  <div class="col ">
+    <div class="card bg-dark text-light">
+      <img src="/assets/image/portfolio image.png" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title text-warning">Portfolio Websites</h5>
+        <p class="card-text">A portfolio website showcasing my projects and skills, built with HTML, CSS, and JavaScript.</p>
+        <button class="btn btn-primary"><a href="#" class="text-white">live Demo</a></button>
+         <button class="btn btn-secondary"><a href="#" class="text-white">Source Code</a></button>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card bg-dark text-light">
+      <img src="assets/image/login.png" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title text-warning">Login System</h5>
+        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+        <button class="btn btn-primary"><a href="https://abduboss056-design.github.io/login/" class="text-white">live Demo</a></button>
+         <button class="btn btn-secondary"><a href="#" class="text-white">Source Code</a></button>
+
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card bg-dark text-light">
+      <img src="assets/image/images.jpeg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title text-warning">E-commerce Website</h5>
+        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+        <button class="btn btn-primary"><a href="#" class="text-white">live Demo</a></button>
+         <button class="btn btn-secondary"><a href="#" class="text-white">Source Code</a></button>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card bg-dark text-light">
+      <img src="..." class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title text-warning">Contact Form</h5>
+        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+        <button class="btn btn-primary"><a href="#" class="text-white">live Demo</a></button>
+         <button class="btn btn-secondary"><a href="#" class="text-white">Source Code</a></button>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+    
+<!-- CONTACT -->
+<section id="contact">
+    <h2 class="text-white">Contact Me</h2>
+
+    <form id="contact-form">
+        <input type="text" id="name" name="name" placeholder="Name" required>
+        <input type="email" id="email" name="email" placeholder="Email" required>
+        <textarea id="message" name="message" placeholder="Message" required></textarea>
+
+        <button type="button" class="btn btn-success">Send</button>
+    </form>
+
+    <p id="successMsg"></p>
+</section>
+ </div>
+ <footer class="footer">
+    <p>&copy; 2026 My Portfolio. All rights reserved.</p>
+ </footer>
+ <script src="/index.js"></script>
+ <script src="/bootstrap-5.3.8-dist/bootstrap-5.3.8-dist/js/bootstrap.js"></script>
+</body>
+</html>
