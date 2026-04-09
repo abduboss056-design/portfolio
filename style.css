@@ -3,7 +3,7 @@ body {
     margin: 0;
     font-family:'Times New Roman', Times, serif;
     transition: background-color 0.5s ease, color 0.5s ease;
-    background-image: url(/assets/image/images_8.png);
+    background-image: url(images_8.png);
     background-size: cover;
     background-position: center;
 }
